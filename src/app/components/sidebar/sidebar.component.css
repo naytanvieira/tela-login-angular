@@ -1,0 +1,13 @@
+.sidebar{
+    position: fixed;
+    width: 80%;
+    background: linear-gradient(to bottom, #000,#232323,#363636);
+    height: calc(100% - 62px);
+    border-bottom: 2px solid rgb(29, 117, 218);
+}
+
+@media only screen and (min-width: 1200px) {
+    .sidebar{
+        width: 20%;
+    }
+  }
